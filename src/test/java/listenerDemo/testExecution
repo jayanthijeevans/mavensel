@@ -1,0 +1,11 @@
+<!DOCTYPE "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+<listeners>
+<listener class-name="listenerDemo.ExectionListener"/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="listenerDemo.ExecutionCode"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
